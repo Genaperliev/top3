@@ -1,0 +1,108 @@
+img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.link-page {
+    border: 2px solid rgb(45, 132, 212);
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.link-page h3 {
+    color: rgb(45, 132, 212);
+}
+
+.link-page p {
+    color: black;
+}
+
+header {
+    background-color: rgb(45, 132, 212);
+    height: 400px;
+    max-width: 1212px;
+    margin: auto;
+    padding: 40px 32px 40px 32px;
+    background-image: url(https://teachalexit.github.io/manuals/frontend/f1img/headerBGTown.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    max-width: 1212px;
+    margin: auto;
+    padding: 40px 32px 40px 32px;
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    max-width: 1212px;
+    margin: auto;
+    padding: 28px 32px 28px 32px;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(209, 209, 209);
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+header p {
+    color: rgb(255, 255, 255);
+}
+
+
+button {
+    background-color: rgb(45, 132, 212);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+    transition: 0.5s;
+    border: 1px solid rgb(45, 132, 212);
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(45, 132, 212);
+}
+
+
+input {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgb(45, 132, 212);
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    max-width: 240px;
+}
+
+a {
+    color: rgb(45, 132, 212);
+    transition: 0.5s;
+}
+
+
+.link-page:hover {
+    background-color: rgb(196, 219, 241);
+    transition: 0.5s;
+}
+
+
+a:hover {
+    color: black;
+
+
+}
+
+
+body {
+    font-family: "Roboto Slab", serif;
+}
